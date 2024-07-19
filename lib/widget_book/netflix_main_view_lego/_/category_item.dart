@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../../../../../../../main.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class CategoryItemView extends StatefulWidget {
   CategoryItemView({
@@ -58,8 +57,3 @@ class _CategoryItemViewState extends State<CategoryItemView> {
     ).padding(bottom: 20);
   }
 }
-
-// main() async {
-//   MyAppHome = CategoryItemView();
-//   return buildApp();
-// }

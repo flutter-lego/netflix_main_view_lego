@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:gap/gap.dart';
+import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'category_item.dart';
 
 class NewView extends StatefulWidget {
@@ -236,6 +238,7 @@ class _NewViewState extends State<NewView> {
 }
 
 main() async {
-  MyAppHome = NewView();
-  return buildApp();
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }

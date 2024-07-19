@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../../../../../../../main.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class NewView extends StatefulWidget {
   const NewView({super.key});
@@ -22,6 +21,7 @@ class _NewViewState extends State<NewView> {
 }
 
 main() async {
-  MyAppHome = NewView();
-  return buildApp();
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }

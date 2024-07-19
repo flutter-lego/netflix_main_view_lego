@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class NewView extends StatefulWidget {
   const NewView({super.key});
 
@@ -12,16 +10,15 @@ class NewView extends StatefulWidget {
 class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 100,
-      width: 100,
-      color: Colors.pinkAccent.withOpacity(0.2),
-      child: Text("Hello World!").center(),
+    return Icon(
+      Icons.favorite,
+      color: Colors.red,
     );
   }
 }
 
 main() async {
-  MyAppHome = NewView();
-  return buildApp();
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }
