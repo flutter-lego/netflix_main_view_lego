@@ -1,9 +1,9 @@
 name: netflix_main_view_lego
-description: "lego is all you need"
+description: "beautiful netflix main view lego"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/netflix_main_view_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
